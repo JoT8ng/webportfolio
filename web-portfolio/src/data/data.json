@@ -1,0 +1,23 @@
+{
+    "Projects": [
+        {
+            "id": 1,
+            "internal": "epdata",
+            "name": "EPData.",
+            "link": "https://www.epdata-tracker.com/",
+            "github": "https://github.com/JoT8ng/Archi-EPD-Tracker-Web-App",
+            "description": "EPData. is a work in progress free web tool that allows architects and other construction professionals to track and visualize embodied carbon emissions of various construction material options. There is increasing demand in the construction industry to source sustainable materials, calculate embodied carbon emissions, and conduct whole life cycle analysis of buildings. EPDs have emerged as one of the most popular ways to measure the carbon footprint and global warming potential of building materials. EPD stands for Environmental Product Declaration. An EPD is a formal document that contains information about the environmental impact and performance of a product. Product manufacturers have increasingly used and produced EPDs because they conform to international standards and are used to demonstrate compliance."
+        },
+        {
+            "id": 2,
+            "internal": "hydrodams",
+            "name": "International Rivers - Hydropower Dams in Sub-Saharan Africa",
+            "link": "https://www.hydropowerdamsmap.org/",
+            "github": "https://github.com/IntlRivers/hydropowerdams-map",
+            "description": "The Sub-saharan African Hydropower Dams Map is an ongoing project mapping prospective and existing dams across the region. It details financial, environmental and social consequences of the projects."
+        }
+    ],
+    "GISProjects": [
+
+    ]
+}

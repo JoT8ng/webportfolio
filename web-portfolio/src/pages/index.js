@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Layout from '../components/layout'
 import { BsGithub, BsLinkedin } from "react-icons/bs"
+import data from '../data/data'
 
 
 const Home = () => {
@@ -19,6 +20,17 @@ const Home = () => {
                         <BsLinkedin style={{width: '50px', height: '50px', color: 'rgb(208,241,241)', paddingLeft: '25px'}} />
                     </Link>
                 </div>
+            </div>
+            <div>
+                {data.Projects.map(project => (
+                    <div key={project.name}>
+                        <Link href={`/projects/${project.internal}`}>
+                            <p>{project.name}</p>
+                        </Link>
+                        <Link href={project.link}>Link</Link>
+                        <Link href={project.github}>Github</Link>
+                    </div>
+                ))}
             </div>
         </Layout>
     )
