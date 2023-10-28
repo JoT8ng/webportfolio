@@ -1,0 +1,15 @@
+/* styles/main.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.circular-gradient-light {
+    background: rgb(225, 236, 194);
+    background: radial-gradient(rgba(225, 236, 194, 1) 0%, rgba(242, 242, 242, 1) 75%);
+  }
+
+@layer utilities{
+    .rectangle {
+        aspect-ratio: 2/1;
+    }
+}
