@@ -8,7 +8,7 @@ const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return(
-        <nav className='navbar'>
+        <nav className='bg-gray-light'>
             <Link href='/'>
                 <span className='logo-text'>JT.</span>
             </Link>
