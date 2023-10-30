@@ -8,13 +8,26 @@
     background: radial-gradient(rgba(225, 236, 194, 1) 0%, rgba(242, 242, 242, 1) 75%);
 }
 
-.text-gradient {
-    background: rgb(255,96,98);
-    background: linear-gradient(0deg, rgba(255,96,98,1) 0%, rgba(255,152,102,1) 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: transparent;
+@layer utilities{
+    .text-gradient {
+        background: rgb(255,96,98);
+        background: linear-gradient(0deg, rgba(255,96,98,1) 0%, rgba(255,152,102,1) 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent;
+    }
+}
+
+@layer utilities{
+    .hover\:text-gradient:hover {
+        background: rgb(255,96,98);
+        background: linear-gradient(0deg, rgba(255,96,98,1) 0%, rgba(255,152,102,1) 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent;
+    }
 }
 
 @layer utilities{

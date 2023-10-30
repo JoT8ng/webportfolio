@@ -4,9 +4,12 @@ import { BsGithub, BsLinkedin } from "react-icons/bs"
 import data from '../data/data'
 import Image from 'next/image'
 import proimg1 from '../media/hydrodamsapp.jpg'
+import proimg2 from '../media/README_HomePic.png'
 
 
 const Home = () => {
+    const projectImage = { proimg1, proimg2 }
+
     return (
         <Layout>
             <div>
@@ -19,7 +22,7 @@ const Home = () => {
                         I create beautiful and robust web applications with a profound understanding of the importance of 
                         client and user requirements at the core of every successful project.
                     </p>
-                    <Link href='/about' className='font-roboto-bold font-bold text-lg py-3 text-black hover:bg-clip-text hover:text-gradient hover:text-transparent'>About me</Link>
+                    <Link href='/about' className='font-roboto-bold font-bold text-lg py-3 text-black hover:text-gradient'>About me</Link>
                     <div className='flex gap-4'>
                         <Link href='https://github.com/JoT8ng/'>
                             <BsGithub className='w-5 h-5 text-black' />
@@ -33,7 +36,7 @@ const Home = () => {
                     {data.Projects.map(project => (
                         <div className='relative overflow-hidden'>
                             <div className='relative aspect-w-16 aspect-h-9'>
-                                <Image src={proimg1} alt='hydrodams thumbnail' className='h-auto max-w-full shadow-md opacity-100 hover:opacity-30 transition duration-300' />
+                                <Image src={projectImage[project.thumbnail]} alt={project.name} className='h-auto max-w-full shadow-md opacity-100 hover:opacity-30 transition duration-300' />
                             </div>
                             <div key={project.name} className='absolute top-0 left-0 w-full rectangle overflow-hidden shadow-md opacity-0 hover:opacity-70 transition duration-300 bg-gray-dark  flex justify-center items-center px-6'>
                                 <div className='text-center'>
