@@ -11,8 +11,8 @@ const Navbar = () => {
     	setMenuClick(!menuClick);
     }
 
-    const content = <>
-        <div className='absolute bg-gray-light min-h-[60vh] left-0 top-[-100%] w-full flex items-center justify-end px-5 mx-auto'>
+    const content = (
+        <div className='md:hidden bg-gray-light left-0 top-[-6%] w-full flex items-center justify-end px-5'>
             <ul className='flex flex-col gap-8'>
                 <li>
                     <Link href='/' activeClassName='active'>Projects</Link>
@@ -38,14 +38,16 @@ const Navbar = () => {
                 </li>
             </ul>
         </div>
-    </>
+    )
 
     return(
-        <nav className='flex justify-between mx-auto bg-gray-light pl-10 pr-10 py-5'>
-            <Link href='/'>
-                <span className='items-start font-roboto-bold font-bold text-black'>JT.</span>
-            </Link>
-            <div className='sm:hidden md:static bg-gray-light md:min-h-fit md:w-auto flex items-center justify-end px-5'>
+        <nav className='flex justify-between mx-auto bg-green-dark pl-10 pr-10 py-5'>
+            <div className='bg-orange'>
+                <Link href='/'>
+                    <span className='items-start font-roboto-bold font-bold text-black'>JT.</span>
+                </Link>
+            </div>
+            <div className='sm:hidden md:static bg-salmon-100 md:min-h-fit md:w-auto md:flex items-center justify-items-center px-5'>
                 <ul className='flex md:flex-row  md:items-center md:gap-[4vw]'>
                     <li>
                         <Link href='/' activeClassName='active'>Projects</Link>
@@ -76,7 +78,7 @@ const Navbar = () => {
 	        </div>
 	        <div className='flex items-center gap-6'>
 		        <button className='block md:hidden transition' onClick={handleClick}>
-		            {menuClick ? <IoIosMenu /> : <IoMdClose />}
+		            {menuClick ? <IoMdClose /> : <IoIosMenu />}
 		        </button>
 	        </div>
         </nav>
