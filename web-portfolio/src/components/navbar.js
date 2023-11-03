@@ -60,9 +60,6 @@ const Navbar = () => {
                             <Link href='/about' activeClassName='active' className='font-sans font-normal text-sm text-black hover:text-gradient'>About</Link>
                         </li>
                         <li>
-                            <Link href='/resume' activeClassName='active:text-gradient' className='font-sans font-normal text-sm text-black hover:text-gradient active:text-gradient'>Resume</Link>
-                        </li>
-                        <li>
                             <Link href='https://github.com/JoT8ng/'>
                                 <BsGithub className='w-5 h-5 text-black hover:text-salmon-100' />
                             </Link>

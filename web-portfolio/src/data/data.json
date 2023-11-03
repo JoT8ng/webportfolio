@@ -16,10 +16,37 @@
             "thumbnail": "proimg1",
             "link": "https://www.hydropowerdamsmap.org/",
             "github": "https://github.com/IntlRivers/hydropowerdams-map",
-            "description": "The Sub-saharan African Hydropower Dams Map is an ongoing project mapping prospective and existing dams across the region. It details financial, environmental and social consequences of the projects."
+            "description": "The Sub-saharan African Hydropower Dams Map is a collaborative ongoing project, mapping prospective and existing dams across the region. It details financial, environmental and social consequences of the projects."
         }
     ],
     "GISProjects": [
-
+        {
+            "id": 1,
+            "internal": "nile-dams",
+            "name": "Dams on the Nile- A Narrative of Ecocide",
+            "thumbnail": "gisimg1",
+            "description": "Control of the Nile river is highly strategic where dam building is fraught with geo-political tensions as water is an extremely precious commodity. The project advocates for the rights of the Nile by claiming that current planning and construction of the Grand Ethiopian Renaissance dam (GERD), which is the next mega infrastructure to be built, is an act of Ecocide."
+        },
+        {
+            "id": 2,
+            "internal": "inga",
+            "name": "Inga River Mapping Project",
+            "thumbnail": "gisimg2",
+            "description": "International Rivers Africa approached me to help advocate against the Inga 3 Dam in the Democratic Republic of Congo (DRC). Research, spatial analysis, and visualization work into the negative environmental and socio-economic impacts the dam will have in the region are conducted alongside a women’s rights NGO, FESO. This work is done in tandem with on site fieldwork with communities affected by the dam."
+        },
+        {
+            "id": 3,
+            "internal": "steppe",
+            "name": "Grain by Grain - Steppe Intensification",
+            "thumbnail": "gisimg3",
+            "description": "A research project that investigates the spaces of the Russian steppe. The agricultural industry in Russia aims to sustain a large population as Putin seeks to make the country one of the largest agricultural producers in the world with ideas of geopolitical expansion. This results in intensive chemical fertilizer and irrigation use, exhausting the soil and increasing fossil fuel consumption. Vast monocultures of crops contribute to biodiversity loss and lack of resilience to climate change."
+        },
+        {
+            "id": 4,
+            "internal": "van-deforest",
+            "name": "Old-Growth Deforestation - Vancouver Island",
+            "thumbnail": "gisimg4",
+            "description": "GIS remote sensing supervised and unsupervised classification analysis, tracking deforestation on Vancouver Island's old-growth forests."
+        }
     ]
 }
