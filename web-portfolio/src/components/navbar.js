@@ -46,7 +46,7 @@ const Navbar = () => {
             <div className='flex justify-between flex-1 p-5'>
                 <div>
                     <Link href='/'>
-                        <Image src={logo} width={50} />
+                        <Image src={logo} width={50} alt='logo' />
                     </Link>
                 </div>
                 <div className='hidden md:flex md:static md:flex-1 text-center sm:hidden justify-end'>
