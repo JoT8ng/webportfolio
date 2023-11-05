@@ -14,8 +14,8 @@ const Home = () => {
     return (
         <Layout>
             <div>
-                <section className='flex lg:px-52 lg:py-36 circular-gradient-light md:px-32 md:py-16 sm:px-12 sm:py-6'>
-                    <div className='flex flex-col'>
+                <section className='flex p-20 circular-gradient-light'>
+                    <div className='flex flex-col justify-center center-content'>
                         <h1 className='font-sans font-normal lg:text-4xl pb-3 md:text-2xl sm:text-lg'>Hi,</h1>
                         <h1 className='font-sans font-normal lg:text-4xl pb-3 md:text-2xl sm:text-lg'>
                             I'm <span className='text-gradient bg-clip-text text-transparent font-bold'>Jocelyn Tang</span>, a web developer in London
@@ -34,8 +34,10 @@ const Home = () => {
                             </Link>
                         </div>
                     </div>
-                    <div className='md:flex-row hover:opacity-80'>
-                        <Image src={group1} />
+                    <div className='flex-row hover:opacity-80'>
+                        <div className="hidden sm:block">
+                            <Image src={group1} />
+                        </div>
                     </div>
                 </section>
                 <section className='grid bg-gray-light p-10 xs:grid-cols-1 lg:grid-cols-2 gap-8 content-center justify-items-center'>
