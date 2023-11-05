@@ -42,7 +42,7 @@ const Home = () => {
                 </section>
                 <section className='grid bg-gray-light p-10 xs:grid-cols-1 lg:grid-cols-2 gap-8 content-center justify-items-center'>
                     {data.Projects.map(project => (
-                        <div className='relative overflow-hidden'>
+                        <div key={project.name} className='relative overflow-hidden'>
                             <div key={project.name} className='relative aspect-w-16 aspect-h-9'>
                                 <Image src={projectImage[project.thumbnail]} alt={project.name} className='h-auto max-w-full shadow-md opacity-100 hover:opacity-30 transition duration-300' />
                             </div>
