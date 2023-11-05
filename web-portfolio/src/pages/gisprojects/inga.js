@@ -38,37 +38,37 @@ const Inga = () => {
                 </div>
                 <div className='grid bg-gray-light grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:px-20 sm:px-10 pb-20'>
                     <div>
-                        <Image className='h-auto max-w-full' src={inga1} />
+                        <Image className='h-auto max-w-full' src={inga1} alt='inga1' />
                     </div>
                     <div>
-                        <Image className='h-auto max-w-full' src={inga2} />
+                        <Image className='h-auto max-w-full' src={inga2} alt='inga2' />
                     </div>
                     <div>
-                        <Image className='h-auto max-w-full' src={inganight} />
+                        <Image className='h-auto max-w-full' src={inganight} alt='Africa transmission night' />
                     </div>
                     <div>
-                        <Image className='h-auto max-w-full' src={night} />
+                        <Image className='h-auto max-w-full' src={night} alt='DRC Night Energy Grid' />
                     </div>
                     <div>
-                        <Image className='h-auto max-w-full' src={kinshasa} />
+                        <Image className='h-auto max-w-full' src={kinshasa} alt='Camp Kinshasa' />
                     </div>
                     <div>
-                        <Image className='h-auto max-w-full' src={biodiversity} />
+                        <Image className='h-auto max-w-full' src={biodiversity} alt='DRC Biodiversity' />
                     </div>
                     <div>
-                        <Image className='h-auto max-w-full' src={forestcover} />
+                        <Image className='h-auto max-w-full' src={forestcover} alt='DRC Forest Cover' />
                     </div>
                     <div>
-                        <Image className='h-auto max-w-full' src={forestloss} />
+                        <Image className='h-auto max-w-full' src={forestloss} alt='DRC Forest Loss' />
                     </div>
                     <div>
-                        <Image className='h-auto max-w-full' src={energygrid} />
+                        <Image className='h-auto max-w-full' src={energygrid} alt='DRC Energy Grid' />
                     </div>
                     <div>
-                        <Image className='h-auto max-w-full' src={solar} />
+                        <Image className='h-auto max-w-full' src={solar} alt='DRC Solar PV Potential' />
                     </div>
                     <div>
-                        <Image className='h-auto max-w-full' src={wind} />
+                        <Image className='h-auto max-w-full' src={wind} alt='DRC Wind Power Potential' />
                     </div>
                 </div>
             </div>

@@ -42,43 +42,43 @@ const Niledams = () => {
                 </div>
                 <div className='grid bg-gray-light grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:px-20 sm:px-10 pb-20'>
                     <div>
-                        <Image className='h-auto max-w-full' src={nilebody} />
+                        <Image className='h-auto max-w-full' src={nilebody} alt='Nile Body' />
                     </div>
                     <div>
-                        <Image className='h-auto max-w-full' src={nileeco} />
+                        <Image className='h-auto max-w-full' src={nileeco} alt='Nile Ecological Body' />
                     </div>
                     <div>
-                        <Image className='h-auto max-w-full' src={cairogrowth} />
+                        <Image className='h-auto max-w-full' src={cairogrowth} alt='Cairo City Growth' />
                     </div>
                     <div>
-                        <Image className='h-auto max-w-full' src={khartoum} />
+                        <Image className='h-auto max-w-full' src={khartoum} alt='Khartoum Floods' />
                     </div>
                     <div>
-                        <Image className='h-auto max-w-full' src={merowe} />
+                        <Image className='h-auto max-w-full' src={merowe} alt='Merowe Dam' />
                     </div>
                     <div>
-                        <Image className='h-auto max-w-full' src={niledelta} />
+                        <Image className='h-auto max-w-full' src={niledelta} alt='Climate Change Nile Delta' />
                     </div>
                     <div>
-                        <Image className='h-auto max-w-full' src={erosion} />
+                        <Image className='h-auto max-w-full' src={erosion} alt='Nile Delta Erosion' />
                     </div>
                     <div>
-                        <Image className='h-auto max-w-full' src={aswan} />
+                        <Image className='h-auto max-w-full' src={aswan} alt='Aswan Dam' />
                     </div>
                     <div>
-                        <Image className='h-auto max-w-full' src={gerd} />
+                        <Image className='h-auto max-w-full' src={gerd} alt='GERD Dam' />
                     </div>
                     <div>
-                        <Image className='h-auto max-w-full' src={nilegrowth} />
+                        <Image className='h-auto max-w-full' src={nilegrowth} alt='Nile Growth' />
                     </div>
                     <div>
-                        <Image className='h-auto max-w-full' src={ethiopiaenergy} />
+                        <Image className='h-auto max-w-full' src={ethiopiaenergy} alt='Ethiopia Energy Grid' />
                     </div>
                     <div>
-                        <Image className='h-auto max-w-full' src={ethiopiaforest} />
+                        <Image className='h-auto max-w-full' src={ethiopiaforest} alt='Ethiopia Forest Cover' />
                     </div>
                     <div>
-                        <Image className='h-auto max-w-full' src={ethiopianight} />
+                        <Image className='h-auto max-w-full' src={ethiopianight} alt='Ethiopia Night Lights Energy Grid' />
                     </div>
                 </div>
             </div>

@@ -24,7 +24,7 @@ const Vandeforest = () => {
                     </div>
                 </div>
                 <div className='flex flex-col bg-gray-light grid-cols-1 gap-8 md:px-20 sm:px-10 pb-20'>
-                        <Image src={classification} />
+                        <Image src={classification} alt='Vancouver Old Growth Remote Sensing' />
                         <video controls>
                             <source src='../../media/van-deforest/OldGrowthDeforestation_MtHorneArea.avi' />
                             Your browser does not support the video tag.

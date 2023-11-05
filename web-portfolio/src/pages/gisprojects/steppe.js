@@ -30,14 +30,14 @@ const Steppe = () => {
                     </div>
                 </div>
                 <div className='md:flex bg-gray-light justify-center items-center pb-8 md:px-20 sm:px-10'>
-                    <Image src={sample1} width={500} />
+                    <Image src={sample1} width={500} alt='Samples' />
                 </div>
                 <div className='flex flex-col bg-gray-light grid-cols-1 gap-8 md:px-20 sm:px-10 pb-20'>
-                    <Image src={volgograd} />
-                    <Image src={cadastre} />
-                    <Image src={floodplain} />
-                    <Image src={ndvi} />
-                    <Image src={fields} />
+                    <Image src={volgograd} alt='Volgograd River Infrared' />
+                    <Image src={cadastre} alt='Russian Cadastre' />
+                    <Image src={floodplain} alt='Infrared Floodplains' />
+                    <Image src={ndvi} alt='NDVI Fields May' />
+                    <Image src={fields} alt='Fields Remote Sensing' />
                 </div>
             </div>
         </Layout>

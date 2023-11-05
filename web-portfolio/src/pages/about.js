@@ -14,11 +14,11 @@ const About = () => {
                     <div className='md:pl-8'>
                         <h1 className='font-sans font-bold text-black text-3xl pb-8'>About Me</h1>
                         <p className='font-sans text-sm text-black pb-3 text-justify'>
-                            Hi! I'm Jocelyn, a dedicated self-taught developer based in London.
+                            Hi! I&#39;m Jocelyn, a dedicated self-taught developer based in London.
                         </p>
                         <p className='font-sans text-sm text-black pb-3 text-justify'>
                             My background from architecture and GIS &#40;geographic information systems&#41;, ignited an interest in 
-                            crafting innovative solutions to streamline workflows. Attending Harvard's CS50X, fostered a passion for 
+                            crafting innovative solutions to streamline workflows. Attending Harvard&#39;s CS50X, fostered a passion for 
                             programming and problem solving.
                         </p>
                         <p className='font-sans text-sm text-black pb-3 text-justify'>
