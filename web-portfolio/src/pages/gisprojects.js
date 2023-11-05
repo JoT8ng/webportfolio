@@ -4,10 +4,12 @@ import data from '../data/data'
 import Image from 'next/image'
 import gisimg2 from '../media/Inga3DamMap_LargeWHITE-01.jpg'
 import gisimg3 from '../media/JocelynTang_Sample.jpg'
+import gisimg4 from '../media/vandeforest-preview.jpg'
+import gisimg1 from '../media/nile-preview.png'
 
 
 const GisProjects = () => {
-    const projectImage = { gisimg2, gisimg3 }
+    const projectImage = { gisimg1, gisimg2, gisimg3, gisimg4 }
 
     return (
         <Layout>
