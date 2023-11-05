@@ -5,31 +5,37 @@ import data from '../data/data'
 import Image from 'next/image'
 import proimg1 from '../media/hydrodamsapp.jpg'
 import proimg2 from '../media/README_HomePic.png'
+import group1 from '../media/GroupLight.png'
 
 
 const Home = () => {
-    const projectImage = { proimg1, proimg2 }
+    const projectImage = { proimg1, proimg2, group1 }
 
     return (
         <Layout>
             <div>
-                <section className='flex flex-col px-52 py-44 circular-gradient-light'>
-                    <h1 className='font-sans font-normal text-4xl pb-3'>Hi,</h1>
-                    <h1 className='font-sans font-normal text-4xl pb-3'>
-                        I'm <span className='text-gradient bg-clip-text text-transparent font-bold'>Jocelyn Tang</span>, a web developer in London
-                    </h1>
-                    <p className='font-mono text-base py-3'>
-                        I create beautiful and robust web applications with a profound understanding of the importance of 
-                        client and user requirements at the core of every successful project.
-                    </p>
-                    <Link href='/about' className='font-roboto-bold font-bold text-lg py-3 text-black hover:text-gradient'>About me</Link>
-                    <div className='flex gap-4'>
-                        <Link href='https://github.com/JoT8ng/'>
-                            <BsGithub className='w-5 h-5 text-black' />
-                        </Link>
-                        <Link href='https://uk.linkedin.com/in/jocelyntang'>
-                            <BsLinkedin className='w-5 h-5 text-black' />
-                        </Link>
+                <section className='flex lg:px-52 lg:py-36 circular-gradient-light md:px-32 md:py-16 sm:px-12 sm:py-6'>
+                    <div className='flex flex-col'>
+                        <h1 className='font-sans font-normal lg:text-4xl pb-3 md:text-2xl sm:text-lg'>Hi,</h1>
+                        <h1 className='font-sans font-normal lg:text-4xl pb-3 md:text-2xl sm:text-lg'>
+                            I'm <span className='text-gradient bg-clip-text text-transparent font-bold'>Jocelyn Tang</span>, a web developer in London
+                        </h1>
+                        <p className='font-mono lg:text-base py-3 md:text-sm sm:text-xs'>
+                            I create beautiful and robust web applications with a profound understanding of the importance of 
+                            client and user requirements at the core of every successful project.
+                        </p>
+                        <Link href='/about' className='font-roboto-bold font-bold lg:text-lg py-3 text-black hover:text-gradient md:text-sm sm:text-xs'>About me</Link>
+                        <div className='flex gap-4'>
+                            <Link href='https://github.com/JoT8ng/'>
+                                <BsGithub className='w-5 h-5 text-black' />
+                            </Link>
+                            <Link href='https://uk.linkedin.com/in/jocelyntang'>
+                                <BsLinkedin className='w-5 h-5 text-black' />
+                            </Link>
+                        </div>
+                    </div>
+                    <div className='md:flex-row hover:opacity-80'>
+                        <Image src={group1} />
                     </div>
                 </section>
                 <section className='grid bg-gray-light p-10 xs:grid-cols-1 lg:grid-cols-2 gap-8 content-center justify-items-center'>
