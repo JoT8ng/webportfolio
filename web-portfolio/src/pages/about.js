@@ -4,16 +4,14 @@ import profile from '../media/profile.jpg'
 
 
 const About = () => {
-    const projectImage = { profile }
-
     return (
         <Layout>
-            <div className='flex bg-gray-light p-20 justify-between gap-8 h-screen'>
-                <div className='flex'>
+            <div className='bg-gray-light p-20 justify-between gap-8 md:h-screen'>
+                <div className='md:flex'>
                     <div>
-                        <Image src={profile} alt='profile' width={1300} />
+                        <Image src={profile} alt='profile' />
                     </div>
-                    <div className='pl-20'>
+                    <div className='md:pl-8'>
                         <h1 className='font-sans font-bold text-black text-3xl pb-8'>About Me</h1>
                         <p className='font-sans text-sm text-black pb-3 text-justify'>
                             Hi! I'm Jocelyn, a dedicated self-taught developer based in London.
