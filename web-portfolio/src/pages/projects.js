@@ -13,7 +13,7 @@ const GisProjects = () => {
     return (
         <Layout>
             <div>
-            <section className='grid bg-gray-light p-10 xs:grid-cols-1 lg:grid-cols-2 gap-8 content-start justify-center md:h-screen'>
+            <section className='min-h-screen grid bg-gray-light p-10 xs:grid-cols-1 lg:grid-cols-2 gap-8 content-start justify-center md:h-screen'>
                     {data.Projects.map(project => (
                         <div key={project.name} className='relative overflow-hidden'>
                             <div key={project.name} className='relative aspect-w-16 aspect-h-9'>
