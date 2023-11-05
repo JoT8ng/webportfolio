@@ -40,20 +40,46 @@ const Niledams = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='flex flex-col bg-gray-light sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:px-20 sm:px-10 pb-20'>
-                    <Image src={nilebody} />
-                    <Image src={nileeco} />
-                    <Image src={cairogrowth} />
-                    <Image src={khartoum} />
-                    <Image src={merowe} />
-                    <Image src={niledelta} />
-                    <Image src={erosion} />
-                    <Image src={aswan} />
-                    <Image src={gerd} />
-                    <Image src={nilegrowth} />
-                    <Image src={ethiopiaenergy} />
-                    <Image src={ethiopiaforest} />
-                    <Image src={ethiopianight} />
+                <div className='grid bg-gray-light grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:px-20 sm:px-10 pb-20'>
+                    <div>
+                        <Image className='h-auto max-w-full' src={nilebody} />
+                    </div>
+                    <div>
+                        <Image className='h-auto max-w-full' src={nileeco} />
+                    </div>
+                    <div>
+                        <Image className='h-auto max-w-full' src={cairogrowth} />
+                    </div>
+                    <div>
+                        <Image className='h-auto max-w-full' src={khartoum} />
+                    </div>
+                    <div>
+                        <Image className='h-auto max-w-full' src={merowe} />
+                    </div>
+                    <div>
+                        <Image className='h-auto max-w-full' src={niledelta} />
+                    </div>
+                    <div>
+                        <Image className='h-auto max-w-full' src={erosion} />
+                    </div>
+                    <div>
+                        <Image className='h-auto max-w-full' src={aswan} />
+                    </div>
+                    <div>
+                        <Image className='h-auto max-w-full' src={gerd} />
+                    </div>
+                    <div>
+                        <Image className='h-auto max-w-full' src={nilegrowth} />
+                    </div>
+                    <div>
+                        <Image className='h-auto max-w-full' src={ethiopiaenergy} />
+                    </div>
+                    <div>
+                        <Image className='h-auto max-w-full' src={ethiopiaforest} />
+                    </div>
+                    <div>
+                        <Image className='h-auto max-w-full' src={ethiopianight} />
+                    </div>
                 </div>
             </div>
         </Layout>
