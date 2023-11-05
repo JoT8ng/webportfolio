@@ -26,6 +26,7 @@ const Hydrodams = () => {
                             <li className='font-mono text-xs text-black group-hover:text-salmon-100'>Mapbox</li>
                             <li className='font-mono text-xs text-black group-hover:text-salmon-100'>opensheet</li>
                             <li className='font-mono text-xs text-black group-hover:text-salmon-100'>Next.js</li>
+                            <li className='font-mono text-xs text-black group-hover:text-salmon-100'>GDAL Python</li>
                             <li className='font-mono text-xs text-black group-hover:text-salmon-100'>TypeScript</li>
                             <li className='font-mono text-xs text-black group-hover:text-salmon-100'>Python</li>
                             <li className='font-mono text-xs text-black group-hover:text-salmon-100'>HTML</li>
