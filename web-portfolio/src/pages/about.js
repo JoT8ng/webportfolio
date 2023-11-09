@@ -18,7 +18,7 @@ const About = () => {
                         </p>
                         <p className='font-sans text-sm text-black pb-3 text-justify'>
                             My background from architecture and GIS &#40;geographic information systems&#41;, ignited an interest in 
-                            crafting innovative solutions to streamline workflows. Attending Harvard&#39;s CS50X, fostered a passion for 
+                            crafting innovative solutions to streamline workflows. Completing Harvard&#39;s CS50X, fostered a passion for 
                             programming and problem solving.
                         </p>
                         <p className='font-sans text-sm text-black pb-3 text-justify'>
@@ -30,9 +30,19 @@ const About = () => {
                             client and user requirements at the core of every successful project.
                         </p>
                         <p className='font-sans text-sm text-black pb-3 text-justify'>
-                            I have had the privilege of working on a web GIS map for an NGO to facilitate humanitarian and 
-                            environmental initiatives, which has shaped my development as a software developer. Witnessing the 
-                            tangible impact of the software I develop on real-world challenges has fortified my commitment to 
+                            I am currently working on two software projects relating to the calculation and processing of carbon data in 
+                            construction projects. One of them is a full-stack web application called EPData. that uses a React frontend and Flask backend with SQL relational databases.
+                            The application allows architects and other construction professionals to track and visualize embodied carbon emissions of various 
+                            construction material options. The other project uses the Revit API Dynamo Python Primer to calculate embodied carbon emissions of 
+                            building components using an existing EPD &#40;environmental product declaration&#41; database within a Revit BIM model. 
+                            This enables architects to store and schedule carbon data and conduct analysis of the overall embodied carbon of their 
+                            building designs.
+                        </p>
+                        <p className='font-sans text-sm text-black pb-3 text-justify'>
+                            In 2023, I have had the privilege of working on a collaborative web GIS map for an NGO to facilitate humanitarian and 
+                            environmental initiatives. The project used React Leaflet and the Mapbox API for the visualisation of the geospatial data and
+                            I worked closely with the NGO to develop the frontend design on Figma to reflect their branding and process/visualise their geospaital data using Mapbox API. 
+                            Witnessing the tangible impact of the software I helped develop on real-world challenges has fortified my commitment to 
                             creating user-centric solutions. I derive immense fulfillment from the meaningful and impactful work 
                             that I am fortunate to be a part of.
                         </p>
