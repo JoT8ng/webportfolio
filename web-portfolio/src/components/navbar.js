@@ -32,11 +32,6 @@ const Navbar = () => {
                         <BsGithub className='w-5 h-5 text-black hover:text-salmon-100' />
                     </Link>
                 </li>
-                <li>
-                    <Link href='https://uk.linkedin.com/in/jocelyntang'>
-                        <BsLinkedin className='w-5 h-5 text-black hover:text-salmon-100' />
-                    </Link>
-                </li>
             </ul>
         </div>
     )
@@ -63,11 +58,6 @@ const Navbar = () => {
                         <li>
                             <Link href='https://github.com/JoT8ng/'>
                                 <BsGithub className='w-5 h-5 text-black hover:text-salmon-100' />
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href='https://uk.linkedin.com/in/jocelyntang'>
-                                <BsLinkedin className='w-5 h-5 text-black hover:text-salmon-100' />
                             </Link>
                         </li>
                     </ul>

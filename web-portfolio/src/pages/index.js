@@ -29,9 +29,6 @@ const Home = () => {
                             <Link href='https://github.com/JoT8ng/'>
                                 <BsGithub className='w-5 h-5 text-black' />
                             </Link>
-                            <Link href='https://uk.linkedin.com/in/jocelyntang'>
-                                <BsLinkedin className='w-5 h-5 text-black' />
-                            </Link>
                         </div>
                     </div>
                     <div className='flex-row hover:opacity-80'>
