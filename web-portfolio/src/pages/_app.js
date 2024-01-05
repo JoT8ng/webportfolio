@@ -1,5 +1,6 @@
 import '../styles/main.css'
 import Head from 'next/head'
+import { ThemeProvider } from '../context/ThemeProvider'
 
 
 export default function MyApp({ Component, pageProps }) {
@@ -21,7 +22,9 @@ export default function MyApp({ Component, pageProps }) {
                 />
                 <meta property="og:image" content="%PUBLIC_URL%/Preview.png"/>
             </Head>
-            <Component {...pageProps} />
+            <ThemeProvider>
+                <Component {...pageProps} />
+            </ThemeProvider>
         </>
     )
   }

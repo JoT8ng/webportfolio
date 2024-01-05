@@ -10,7 +10,7 @@ const Vandeforest = () => {
         <Layout>
             <div>
                 <Template info={data.GISProjects[3]} />
-                <div className='bg-gray-light pb-20 px-20 flex justify-items-center gap-8'>
+                <div className='bg-gray-light dark:bg-gray-dark pb-20 px-20 flex justify-items-center gap-8'>
                     <div className='group flex-col overflow-hidden shadow-md bg-green-light flex justify-start p-8'>
                         <p className='font-sans font-bold text-sm text-black group-hover:text-salmon-100 pb-3'>Software Used:</p>
                         <ul>
@@ -23,7 +23,7 @@ const Vandeforest = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='flex flex-col bg-gray-light grid-cols-1 gap-8 md:px-20 sm:px-10 pb-20'>
+                <div className='flex flex-col bg-gray-light dark:bg-gray-dark grid-cols-1 gap-8 md:px-20 sm:px-10 pb-20'>
                         <Image src={classification} alt='Vancouver Old Growth Remote Sensing' />
                 </div>
             </div>

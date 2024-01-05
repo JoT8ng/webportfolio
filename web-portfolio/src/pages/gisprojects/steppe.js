@@ -15,7 +15,7 @@ const Steppe = () => {
         <Layout>
             <div>
                 <Template info={data.GISProjects[2]} />
-                <div className='bg-gray-light pb-20 px-20 flex justify-items-center gap-8'>
+                <div className='bg-gray-light dark:bg-gray-dark pb-20 px-20 flex justify-items-center gap-8'>
                     <div className='group flex-col overflow-hidden shadow-md bg-green-light flex justify-start p-8'>
                         <p className='font-sans font-bold text-sm text-black group-hover:text-salmon-100 pb-3'>Software Used:</p>
                         <ul>
@@ -29,10 +29,10 @@ const Steppe = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='md:flex bg-gray-light justify-center items-center pb-8 md:px-20 sm:px-10'>
+                <div className='md:flex bg-gray-light dark:bg-gray-dark justify-center items-center pb-8 md:px-20 sm:px-10'>
                     <Image src={sample1} width={500} alt='Samples' />
                 </div>
-                <div className='flex flex-col bg-gray-light grid-cols-1 gap-8 md:px-20 sm:px-10 pb-20'>
+                <div className='flex flex-col bg-gray-light dark:bg-gray-dark grid-cols-1 gap-8 md:px-20 sm:px-10 pb-20'>
                     <Image src={volgograd} alt='Volgograd River Infrared' />
                     <Image src={cadastre} alt='Russian Cadastre' />
                     <Image src={floodplain} alt='Infrared Floodplains' />

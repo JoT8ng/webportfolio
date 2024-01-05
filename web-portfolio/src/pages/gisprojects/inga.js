@@ -20,7 +20,7 @@ const Inga = () => {
         <Layout>
             <div>
                 <Template info={data.GISProjects[1]} />
-                <div className='bg-gray-light pb-20 px-20 flex justify-items-center gap-8'>
+                <div className='bg-gray-light dark:bg-gray-dark pb-20 px-20 flex justify-items-center gap-8'>
                     <div className='group flex-col overflow-hidden shadow-md bg-green-light flex justify-start p-8'>
                         <p className='font-sans font-bold text-sm text-black group-hover:text-salmon-100 pb-3'>Software Used:</p>
                         <ul>
@@ -36,7 +36,7 @@ const Inga = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='grid bg-gray-light grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:px-20 sm:px-10 pb-20'>
+                <div className='grid bg-gray-light dark:bg-gray-dark grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:px-20 sm:px-10 pb-20'>
                     <div>
                         <Image className='h-auto max-w-full' src={inga1} alt='inga1' />
                     </div>
