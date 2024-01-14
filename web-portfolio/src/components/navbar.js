@@ -36,6 +36,11 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li>
+                    <Link href='https://www.linkedin.com/in/jocelyntang/'>
+                        <BsLinkedin className='w-5 h-5 text-black dark:text-white hover:text-salmon-100' />
+                    </Link>
+                </li>
+                <li>
                     <button onClick={toggleTheme}>
                         <BsSunFill className='text-black dark:text-white' />
                     </button>
@@ -72,6 +77,11 @@ const Navbar = () => {
                         <li>
                             <Link href='https://github.com/JoT8ng/'>
                                 <BsGithub className='w-5 h-5 text-black dark:text-white hover:text-salmon-100' />
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href='https://www.linkedin.com/in/jocelyntang/'>
+                                <BsLinkedin className='w-5 h-5 text-black dark:text-white hover:text-salmon-100' />
                             </Link>
                         </li>
                         <li>
