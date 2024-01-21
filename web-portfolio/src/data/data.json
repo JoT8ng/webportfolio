@@ -2,7 +2,7 @@
     "Projects": [
         {
             "id": 1,
-            "internal": "epdata",
+            "internal": "/projects/epdata",
             "name": "EPData.",
             "thumbnail": "proimg2",
             "link": "https://www.epdata-tracker.com/",
@@ -11,12 +11,21 @@
         },
         {
             "id": 2,
-            "internal": "hydrodams",
+            "internal": "/projects/hydrodams",
             "name": "International Rivers - Hydropower Dams in Sub-Saharan Africa",
             "thumbnail": "proimg1",
             "link": "https://www.hydropowerdamsmap.org/",
             "github": "https://github.com/IntlRivers/hydropowerdams-map",
             "description": "The Sub-saharan African Hydropower Dams Map is a collaborative ongoing project, mapping prospective and existing dams across the region. It details financial, environmental and social consequences of the projects."
+        },
+        {
+            "id": 3,
+            "internal": "https://github.com/JoT8ng/fullstackopen",
+            "name": "Full Stack Open Course - Projects",
+            "thumbnail": "proimg3",
+            "link": "https://github.com/JoT8ng/fullstackopen",
+            "github": "https://github.com/JoT8ng/fullstackopen",
+            "description": "Full stack project highlights from the course by the University of Helsinki. Direct link to Github repository."
         }
     ],
     "GISProjects": [
