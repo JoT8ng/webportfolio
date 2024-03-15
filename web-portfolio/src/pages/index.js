@@ -5,14 +5,17 @@ import data from '../data/data'
 import Image from 'next/image'
 import proimg1 from '../media/hydrodamsapp.jpg'
 import proimg2 from '../media/epdata-thumbnail.png'
-import proimg3 from '../media/Placeholder.png'
+import proimg6 from '../media/Placeholder.png'
 import group1 from '../media/GroupLight.png'
 import GroupDark from '../media/GroupDark.png'
 import { useTheme } from '../context/ThemeProvider'
+import proimg3 from '../media/MoviesFigma.jpg'
+import proimg4 from '../media/SnakeGameplay.png'
+import proimg5 from '../media/WhaleGameplay.png'
 
 
 const Home = () => {
-    const projectImage = { proimg1, proimg2, group1, proimg3 }
+    const projectImage = { proimg1, proimg2, group1, proimg3, proimg4, proimg5, proimg6 }
     const { isDarkMode, toggleTheme } = useTheme()
 
     return (
@@ -22,7 +25,7 @@ const Home = () => {
                     <div className='flex flex-col justify-center center-content'>
                         <h1 className='font-sans font-normal lg:text-4xl pb-3 md:text-2xl sm:text-lg text-black dark:text-white'>Hi,</h1>
                         <h1 className='font-sans font-normal lg:text-4xl pb-3 md:text-2xl sm:text-lg text-black dark:text-white'>
-                            I&#39;m <span className='text-gradient bg-clip-text text-transparent font-bold'>Jocelyn Tang</span>, a web developer in London
+                            I&#39;m <span className='text-gradient bg-clip-text text-transparent font-bold'>Jocelyn Tang</span>, a software developer
                         </h1>
                         <p className='font-mono lg:text-base py-3 md:text-sm sm:text-xs text-black dark:text-white'>
                             I create beautiful and robust web applications with a profound understanding of the importance of 

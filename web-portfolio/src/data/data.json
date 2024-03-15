@@ -20,9 +20,36 @@
         },
         {
             "id": 3,
+            "internal": "/projects/movies-wrapped",
+            "name": "Movies-Wrapped (ongoing)",
+            "thumbnail": "proimg3",
+            "link": "https://github.com/JoT8ng/movies-wrapped",
+            "github": "https://github.com/JoT8ng/movies-wrapped",
+            "description": "Work in progress non-commercial app that allows users to keep track of movies and shows they watched. Users can generate yearly and monthly summaries. This product uses the TMDB API but is not endorsed or certified by TMDB."
+        },
+        {
+            "id": 4,
+            "internal": "https://snake-game-ten-black.vercel.app",
+            "name": "JavaScript Snake Game!",
+            "thumbnail": "proimg4",
+            "link": "https://snake-game-ten-black.vercel.app",
+            "github": "https://github.com/JoT8ng/snake-game",
+            "description": "A simple JavaScript snake game. Created while attending MLH Global Hack Week Games 2024. In singleplayer mode use the 'W' 'A' 'S' 'D' keys on the keyboard to control the player/blue snake to eat food (orange square). The more food you eat without dying the higher your score. You will die if you hit the enemy snake or you hit yourself. In multiplayer mode another player can use the arrow keys on the keyboard to control the enemy snake to attack the blue snake."
+        },
+        {
+            "id": 5,
+            "internal": "https://vimeo.com/manage/videos/922357455",
+            "name": "Pygame Feed Mushy the Whale",
+            "thumbnail": "proimg5",
+            "link": "https://jot8ng.itch.io/feed-mushy-the-whale",
+            "github": "https://github.com/JoT8ng/feed-mushy-the-whale-game",
+            "description": "A simple Python game made using Pygame! Created while attending MLH Global Hack Week Games 2024."
+        },
+        {
+            "id": 6,
             "internal": "https://github.com/JoT8ng/fullstackopen",
             "name": "Full Stack Open Course - Projects",
-            "thumbnail": "proimg3",
+            "thumbnail": "proimg6",
             "link": "https://github.com/JoT8ng/fullstackopen",
             "github": "https://github.com/JoT8ng/fullstackopen",
             "description": "Full stack project highlights from the course by the University of Helsinki. Direct link to Github repository."

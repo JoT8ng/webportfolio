@@ -5,11 +5,14 @@ import Image from 'next/image'
 import proimg1 from '../media/hydrodamsapp.jpg'
 import proimg2 from '../media/README_HomePic.png'
 import group1 from '../media/GroupLight.png'
-import proimg3 from '../media/Placeholder.png'
+import proimg6 from '../media/Placeholder.png'
+import proimg3 from '../media/MoviesFigma.jpg'
+import proimg4 from '../media/SnakeGameplay.png'
+import proimg5 from '../media/WhaleGameplay.png'
 
 
 const GisProjects = () => {
-    const projectImage = { proimg1, proimg2, group1, proimg3 }
+    const projectImage = { proimg1, proimg2, group1, proimg3, proimg4, proimg5, proimg6 }
 
     return (
         <Layout>

@@ -14,37 +14,22 @@ const About = () => {
                     <div className='md:pl-8'>
                         <h1 className='font-sans font-bold text-black dark:text-white text-3xl pb-8'>About Me</h1>
                         <p className='font-sans text-sm text-black dark:text-white pb-3 text-justify'>
-                            Hi! I&#39;m Jocelyn, a dedicated self-taught developer based in London.
+                            Hi! I&#39;m Jocelyn, a dedicated Software Developer based in Toronto &#40;Canada&#41; and London &#40;UK&#41;.
                         </p>
                         <p className='font-sans text-sm text-black dark:text-white pb-3 text-justify'>
-                            My background from architecture and GIS &#40;geographic information systems&#41;, ignited an interest in 
-                            crafting innovative solutions to streamline workflows. Completing Harvard&#39;s CS50X, fostered a passion for 
-                            programming and problem solving.
+                            I blend expertise in architecture/construction, GIS, and software development to craft innovative solutions. 
+                            I leverage critical thinking and problem-solving skills to develop efficient software solutions to streamline 
+                            workflows and address climate/sustainability challenges. I am also passionate about making geospatial data 
+                            accessible to the wider public to conduct humanitarian or climate advocacy work through GIS web applications. 
                         </p>
                         <p className='font-sans text-sm text-black dark:text-white pb-3 text-justify'>
-                            Being a fast learner and constantly striving for self improvement, I possess a natural aptitude for 
-                            mastering diverse software, programming languages, and frameworks. I combine my  design expertise, 
-                            attention to detail, and multi-disciplinary skillsets to create beautiful and robust web applications. 
-                            My professional background has ingrained in me the significance of effective communication, cohesive 
-                            teamwork, meticulous organization/time management, and a profound understanding of the importance of 
-                            client and user requirements at the core of every successful project.
+                            My diverse skill sets and multi-disciplinary background have equipped me with invaluable teamwork 
+                            experiences, enabling me to excel in communication while collaborating with diverse teams and clients. 
+                            Additionally, I possess a talent for swiftly mastering a wide array of technologies and frameworks.
                         </p>
                         <p className='font-sans text-sm text-black dark:text-white pb-3 text-justify'>
-                            I am currently working on two software projects relating to the calculation and processing of carbon data in 
-                            construction projects. One of them is a full-stack web application called EPData. that uses a React frontend and Flask backend with SQL relational databases.
-                            The application allows architects and other construction professionals to track and visualize embodied carbon emissions of various 
-                            construction material options. The other project uses the Revit API Dynamo Python Primer to calculate embodied carbon emissions of 
-                            building components using an existing EPD &#40;environmental product declaration&#41; database within a Revit BIM model. 
-                            This enables architects to store and schedule carbon data and conduct analysis of the overall embodied carbon of their 
-                            building designs.
-                        </p>
-                        <p className='font-sans text-sm text-black dark:text-white pb-3 text-justify'>
-                            In 2023, I have had the privilege of working on a collaborative web GIS map for an NGO to facilitate humanitarian and 
-                            environmental initiatives. The project used React Leaflet and the Mapbox API for the visualisation of the geospatial data and
-                            I worked closely with the NGO to develop the frontend design on Figma to reflect their branding and process/visualise their geospaital data using Mapbox API. 
-                            Witnessing the tangible impact of the software I helped develop on real-world challenges has fortified my commitment to 
-                            creating user-centric solutions. I derive immense fulfillment from the meaningful and impactful work 
-                            that I am fortunate to be a part of.
+                            My projects reflect a balance between client objectives and technical feasibility, showcasing a commitment 
+                            to excellence and continuous self-improvement.
                         </p>
                     </div>
                 </div>

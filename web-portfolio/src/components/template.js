@@ -2,10 +2,11 @@ import Link from 'next/link'
 import Image from 'next/image'
 import proimg1 from '../media/hydrodams-preview.jpg'
 import proimg2 from '../media/epdata-preview.png'
+import proimg3 from '../media/MoviesFigma.jpg'
 
 
 const Template = ({ info }) => {
-    const projectImage = { proimg1, proimg2 };
+    const projectImage = { proimg1, proimg2, proimg3 };
 
     return (
         <div className='bg-gray-light dark:bg-gray-dark'>
