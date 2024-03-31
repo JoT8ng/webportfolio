@@ -14,10 +14,10 @@ const MoviesWrapped = () => {
                         database using Typescript and integrated a third-party API
                     </li>
                     <li className='text-black dark:text-white font-mono text-xs'>
-                        Implemented user authentication and session management using JWT Tokens
+                        Implemented user authentication and session management using JWT Tokens and Redux for global state management
                     </li>
                     <li className='text-black dark:text-white font-mono text-xs'>
-                        ONGOING- Implement form validation using Formik
+                        Implemented form validation using Formik and Yup
                     </li>
                     <li className='text-black dark:text-white font-mono text-xs'>
                         ONGOING- Configure the monorepo to operate seamlessly across development, testing, and production environments, 
@@ -55,6 +55,9 @@ const MoviesWrapped = () => {
                             <li className='font-mono text-xs text-black group-hover:text-salmon-100'>Jest</li>
                             <li className='font-mono text-xs text-black group-hover:text-salmon-100'>Cypress</li>
                             <li className='font-mono text-xs text-black group-hover:text-salmon-100'>GitHub Actions</li>
+                            <li className='font-mono text-xs text-black group-hover:text-salmon-100'>Formik</li>
+                            <li className='font-mono text-xs text-black group-hover:text-salmon-100'>Yup</li>
+                            <li className='font-mono text-xs text-black group-hover:text-salmon-100'>Redux</li>
                         </ul>
                     </div>
                 </div>

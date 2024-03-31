@@ -9,7 +9,7 @@ const About = () => {
             <div className='bg-gray-light dark:bg-gray-dark p-20 justify-between gap-8 md:h-screen'>
                 <div className='md:flex'>
                     <div>
-                        <Image src={profile} alt='profile' />
+                        <Image src={profile} alt='profile' className='w-[800px]' />
                     </div>
                     <div className='md:pl-8'>
                         <h1 className='font-sans font-bold text-black dark:text-white text-3xl pb-8'>About Me</h1>
