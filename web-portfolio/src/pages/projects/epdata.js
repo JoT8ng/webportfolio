@@ -24,9 +24,6 @@ const Epdata = () => {
                     <li className='text-black dark:text-white font-mono text-xs'>
                         Used Postman to test the REST APIs and configured rate-limiting for all API end points
                     </li>
-                    <li className='text-black dark:text-white font-mono text-xs'>
-                        Implemented an API security mechanism requiring authentication keys for accessing backend API endpoints
-                    </li>
                 </div>
                 <div className='grid flex-col bg-gray-light dark:bg-gray-dark pb-20 px-20 md:grid-cols-2 grid-cols-1 justify-items-start gap-8'>
                     <div className='group flex-col overflow-hidden shadow-md bg-green-light flex justify-start p-8'>

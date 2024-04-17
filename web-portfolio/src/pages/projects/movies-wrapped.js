@@ -20,18 +20,15 @@ const MoviesWrapped = () => {
                         Implemented form validation using Formik and Yup
                     </li>
                     <li className='text-black dark:text-white font-mono text-xs'>
-                        ONGOING- Configure the monorepo to operate seamlessly across development, testing, and production environments, 
+                        Configure the monorepo to operate seamlessly across development, testing, and production environments, 
                         while integrating it into a robust CI/CD pipeline using GitHub Actions with comprehensive testing protocols, 
                         laying the groundwork for scalable software expansion
                     </li>
                     <li className='text-black dark:text-white font-mono text-xs'>
-                        ONGOING- Configure unit, integration, and end-to-end testing using Jest and Cypress
+                        Used Postman to test the REST APIs and configured rate-limiting for all API end points
                     </li>
                     <li className='text-black dark:text-white font-mono text-xs'>
-                        Used Postman to test the REST APIs
-                    </li>
-                    <li className='text-black dark:text-white font-mono text-xs'>
-                        ONGOING- Implemented an API security mechanism requiring authentication keys for accessing backend API endpoints and CSRF Tokens
+                        Implemented an API security mechanism requiring authentication keys for accessing backend API endpoints
                     </li>
                 </div>
                 <div className='grid flex-col bg-gray-light dark:bg-gray-dark pb-20 px-20 md:grid-cols-2 grid-cols-1 justify-items-start gap-8'>
@@ -58,6 +55,7 @@ const MoviesWrapped = () => {
                             <li className='font-mono text-xs text-black group-hover:text-salmon-100'>Formik</li>
                             <li className='font-mono text-xs text-black group-hover:text-salmon-100'>Yup</li>
                             <li className='font-mono text-xs text-black group-hover:text-salmon-100'>Redux</li>
+                            <li className='font-mono text-xs text-black group-hover:text-salmon-100'>react-chartjs-2</li>
                         </ul>
                     </div>
                 </div>

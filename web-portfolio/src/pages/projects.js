@@ -6,7 +6,7 @@ import proimg1 from '../media/hydrodamsapp.jpg'
 import proimg2 from '../media/README_HomePic.png'
 import group1 from '../media/GroupLight.png'
 import proimg6 from '../media/Placeholder.png'
-import proimg3 from '../media/MoviesFigma.jpg'
+import proimg3 from '../media/movies-preview.png'
 import proimg4 from '../media/SnakeGameplay.png'
 import proimg5 from '../media/WhaleGameplay.png'
 

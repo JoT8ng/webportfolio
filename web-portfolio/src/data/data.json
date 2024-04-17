@@ -23,7 +23,7 @@
             "internal": "/projects/movies-wrapped",
             "name": "Movies-Wrapped (ongoing)",
             "thumbnail": "proimg3",
-            "link": "https://github.com/JoT8ng/movies-wrapped",
+            "link": "https://movies-wrapped.onrender.com/",
             "github": "https://github.com/JoT8ng/movies-wrapped",
             "description": "Work in progress non-commercial app that allows users to keep track of movies and shows they watched. Users can generate yearly and monthly summaries. This product uses the TMDB API but is not endorsed or certified by TMDB."
         },

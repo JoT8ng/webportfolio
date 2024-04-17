@@ -9,7 +9,7 @@ import proimg6 from '../media/Placeholder.png'
 import group1 from '../media/GroupLight.png'
 import GroupDark from '../media/GroupDark.png'
 import { useTheme } from '../context/ThemeProvider'
-import proimg3 from '../media/MoviesFigma.jpg'
+import proimg3 from '../media/movies-preview.png'
 import proimg4 from '../media/SnakeGameplay.png'
 import proimg5 from '../media/WhaleGameplay.png'
 
