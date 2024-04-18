@@ -14,7 +14,7 @@ const MoviesWrapped = () => {
                         database using Typescript and integrated a third-party API
                     </li>
                     <li className='text-black dark:text-white font-mono text-xs'>
-                        Implemented user authentication and session management using JWT Tokens and Redux for global state management
+                        Implemented user authentication and authorization using JWT Tokens and Redux for global state management
                     </li>
                     <li className='text-black dark:text-white font-mono text-xs'>
                         Implemented form validation using Formik and Yup
@@ -26,9 +26,6 @@ const MoviesWrapped = () => {
                     </li>
                     <li className='text-black dark:text-white font-mono text-xs'>
                         Used Postman to test the REST APIs and configured rate-limiting for all API end points
-                    </li>
-                    <li className='text-black dark:text-white font-mono text-xs'>
-                        Implemented an API security mechanism requiring authentication keys for accessing backend API endpoints
                     </li>
                 </div>
                 <div className='grid flex-col bg-gray-light dark:bg-gray-dark pb-20 px-20 md:grid-cols-2 grid-cols-1 justify-items-start gap-8'>
@@ -49,8 +46,6 @@ const MoviesWrapped = () => {
                             <li className='font-mono text-xs text-black group-hover:text-salmon-100'>Tailwind CSS</li>
                             <li className='font-mono text-xs text-black group-hover:text-salmon-100'>MongoDB</li>
                             <li className='font-mono text-xs text-black group-hover:text-salmon-100'>Postman</li>
-                            <li className='font-mono text-xs text-black group-hover:text-salmon-100'>Jest</li>
-                            <li className='font-mono text-xs text-black group-hover:text-salmon-100'>Cypress</li>
                             <li className='font-mono text-xs text-black group-hover:text-salmon-100'>GitHub Actions</li>
                             <li className='font-mono text-xs text-black group-hover:text-salmon-100'>Formik</li>
                             <li className='font-mono text-xs text-black group-hover:text-salmon-100'>Yup</li>
