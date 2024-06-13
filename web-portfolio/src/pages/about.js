@@ -14,7 +14,7 @@ const About = () => {
                     <div className='md:pl-8'>
                         <h1 className='font-sans font-bold text-black dark:text-white text-3xl pb-8'>About Me</h1>
                         <p className='font-sans text-sm text-black dark:text-white pb-3 text-justify'>
-                            Hi! I&#39;m Jocelyn, a dedicated Software Developer based in Toronto &#40;Canada&#41; and London &#40;UK&#41;.
+                            Hi! I&#39;m Jocelyn, a dedicated Software Developer based in Toronto &#40;Canada&#41;.
                         </p>
                         <p className='font-sans text-sm text-black dark:text-white pb-3 text-justify'>
                             I blend expertise in architecture/construction, GIS, and software development to craft innovative solutions. 
