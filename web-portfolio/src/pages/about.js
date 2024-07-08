@@ -14,22 +14,24 @@ const About = () => {
                     <div className='md:pl-8'>
                         <h1 className='font-sans font-bold text-black dark:text-white text-3xl pb-8'>About Me</h1>
                         <p className='font-sans text-sm text-black dark:text-white pb-3 text-justify'>
-                            Hi! I&#39;m Jocelyn, a dedicated Software Developer based in Toronto &#40;Canada&#41;.
+                            Hi! I&#39;m Jocelyn, a Software Developer based in Toronto Canada 
+                            with a background in architecture and GIS &#40;Geographic Information Systems&#41;.
                         </p>
                         <p className='font-sans text-sm text-black dark:text-white pb-3 text-justify'>
-                            I blend expertise in architecture/construction, GIS, and software development to craft innovative solutions. 
-                            I leverage critical thinking and problem-solving skills to develop efficient software solutions to streamline 
-                            workflows and address climate/sustainability challenges. I am also passionate about making geospatial data 
-                            accessible to the wider public to conduct humanitarian or climate advocacy work through GIS web applications. 
+                            My journey into tech began with automating tasks and creating software to improve efficiency in 
+                            my architectural work. I discovered a passion for developing software that solves real-world problems 
+                            and automates tasks. Attending Harvard's CS50X Introduction to Computer Science, fostered a passion for 
+                            programming and problem solving. 
                         </p>
                         <p className='font-sans text-sm text-black dark:text-white pb-3 text-justify'>
-                            My diverse skill sets and multi-disciplinary background have equipped me with invaluable teamwork 
-                            experiences, enabling me to excel in communication while collaborating with diverse teams and clients. 
-                            Additionally, I possess a talent for swiftly mastering a wide array of technologies and frameworks.
+                            I believe my skills and previous work experiences are transferable to software engineering. Some of 
+                            the skills I can bring are: complex problem solving, project management, graphic design, software 
+                            proficiency, team collaboration, synthesizing complex information, critical thinking, and communication 
+                            and presentation skills.
                         </p>
                         <p className='font-sans text-sm text-black dark:text-white pb-3 text-justify'>
-                            My projects reflect a balance between client objectives and technical feasibility, showcasing a commitment 
-                            to excellence and continuous self-improvement.
+                            With strengths in time management, I am able to work productively in many environments and situations. 
+                            I am also committed to continuous learning and mastering new technologies to develop innovative solutions.
                         </p>
                     </div>
                 </div>

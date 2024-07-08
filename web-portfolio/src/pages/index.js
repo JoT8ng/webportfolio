@@ -28,8 +28,7 @@ const Home = () => {
                             I&#39;m <span className='text-gradient bg-clip-text text-transparent font-bold'>Jocelyn Tang</span>, a software developer
                         </h1>
                         <p className='font-mono lg:text-base py-3 md:text-sm sm:text-xs text-black dark:text-white'>
-                            I create beautiful and robust web applications with a profound understanding of the importance of 
-                            client and user requirements at the core of every successful project.
+                            I am committed to continuous learning and mastering new technologies to develop innovative solutions.
                         </p>
                         <Link href='/about' className='font-roboto-bold font-bold lg:text-lg py-3 text-black dark:text-white hover:text-gradient md:text-sm sm:text-xs'>About me</Link>
                         <div className='flex gap-4'>
