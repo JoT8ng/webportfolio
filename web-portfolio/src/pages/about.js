@@ -14,24 +14,28 @@ const About = () => {
                     <div className='md:pl-8'>
                         <h1 className='font-sans font-bold text-black dark:text-white text-3xl pb-8'>About Me</h1>
                         <p className='font-sans text-sm text-black dark:text-white pb-3 text-justify'>
-                            Hi! I&#39;m Jocelyn, a Software Developer based in Toronto Canada 
-                            with a background in architecture and GIS &#40;Geographic Information Systems&#41;.
+                            Hi! I&#39;m Jocelyn, a GIS Data Analyst at Ratio.City a division of Esri Canada with a background from architecture.
                         </p>
                         <p className='font-sans text-sm text-black dark:text-white pb-3 text-justify'>
-                            My journey into tech began with automating tasks and creating software to improve efficiency in 
-                            my architectural work. I discovered a passion for developing software that solves real-world problems 
-                            and automates tasks. Attending Harvard's CS50X Introduction to Computer Science, fostered a passion for 
-                            programming and problem solving. 
+                            During my studies I learned GIS and remote sensing, applying them to projects analyzing urban patterns 
+                            and engaging in humanitarian efforts. My interest in working with geospatial data and desire to create 
+                            GIS web applications ignited an interest in programming. My journey into tech began with automating tasks 
+                            and creating software to improve efficiency in my architectural work. I discovered a passion for developing 
+                            software for the AEC industry to tackle real-world problems and the climate crises.
                         </p>
                         <p className='font-sans text-sm text-black dark:text-white pb-3 text-justify'>
-                            I believe my skills and previous work experiences are transferable to software engineering. Some of 
-                            the skills I can bring are: complex problem solving, project management, graphic design, software 
-                            proficiency, team collaboration, synthesizing complex information, critical thinking, and communication 
-                            and presentation skills.
+                            I have a keen interest in creating data visualizations, particularly using geospatial data. My experience 
+                            includes developing GIS web applications for climate advocacy work with an NGO, where I leveraged geospatial 
+                            data to drive impactful projects.
                         </p>
                         <p className='font-sans text-sm text-black dark:text-white pb-3 text-justify'>
-                            With strengths in time management, I am able to work productively in many environments and situations. 
-                            I am also committed to continuous learning and mastering new technologies to develop innovative solutions.
+                            Some of the skills I can bring are: complex problem solving, project management, graphic design, software 
+                            proficiency, team collaboration, synthesizing complex information, critical thinking, and communication and 
+                            presentation skills.
+                        </p>4
+                        <p className='font-sans text-sm text-black dark:text-white pb-3 text-justify'>
+                            I am committed to continuous learning and mastering new technologies to develop innovative solutions. I am 
+                            excited about the opportunity to bring my unique blend of GIS, architecture, and software development skills.
                         </p>
                     </div>
                 </div>

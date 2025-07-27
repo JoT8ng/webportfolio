@@ -25,10 +25,10 @@ const Home = () => {
                     <div className='flex flex-col justify-center center-content'>
                         <h1 className='font-sans font-normal lg:text-4xl pb-3 md:text-2xl sm:text-lg text-black dark:text-white'>Hi,</h1>
                         <h1 className='font-sans font-normal lg:text-4xl pb-3 md:text-2xl sm:text-lg text-black dark:text-white'>
-                            I&#39;m <span className='text-gradient bg-clip-text text-transparent font-bold'>Jocelyn Tang</span>, a software developer
+                            I&#39;m <span className='text-gradient bg-clip-text text-transparent font-bold'>Jocelyn Tang</span>, a GIS Data Analyst
                         </h1>
                         <p className='font-mono lg:text-base py-3 md:text-sm sm:text-xs text-black dark:text-white'>
-                            I am committed to continuous learning and mastering new technologies to develop innovative solutions.
+                            GIS Data Analyst and Web Developer bridging spatial and digital worlds. Passionate about software development for AEC & climate solutions.
                         </p>
                         <Link href='/about' className='font-roboto-bold font-bold lg:text-lg py-3 text-black dark:text-white hover:text-gradient md:text-sm sm:text-xs'>About me</Link>
                         <div className='flex gap-4'>
