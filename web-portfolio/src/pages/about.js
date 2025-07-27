@@ -32,7 +32,7 @@ const About = () => {
                             Some of the skills I can bring are: complex problem solving, project management, graphic design, software 
                             proficiency, team collaboration, synthesizing complex information, critical thinking, and communication and 
                             presentation skills.
-                        </p>4
+                        </p>
                         <p className='font-sans text-sm text-black dark:text-white pb-3 text-justify'>
                             I am committed to continuous learning and mastering new technologies to develop innovative solutions. I am 
                             excited about the opportunity to bring my unique blend of GIS, architecture, and software development skills.
